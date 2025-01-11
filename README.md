@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mario G</h1>
-<h3 align="center">With 13+ years of experience in .NET</h3>
-<h3 align="center">and over 6 years in Azure, Angular, and React</h3>
+<h3 align="center">With 13+ years of exp in .NET and 6+ years in Azure, Angular, and React</h3>
 <h3 align="center">Proven track record as a Team Lead and member of architecture teams</h3>
 
 - 🔭 I’m currently building **AI-powered apps** for text processing and voice interaction
