@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mario G</h1>
-<h3 align="center">A passionate frontend developer</h3>
+<h3 align="center">With 13+ years of exp in .NET, and +6 years of exp in Azure, Angular and React</h3>
+
+- 🌱 I’m currently learning **Azure AI services**
 
 - ⚡ Fun fact **a**
 
