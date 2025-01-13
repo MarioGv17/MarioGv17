@@ -15,7 +15,7 @@
 
 <div align="center">
   <h3 align="center">Leetcode stats</h3>
-  <p><img src="https://leetcard.jacoblin.cool/mariogv17?theme=dark&font=Ribeye" alt="leetcode stats" /></p>
+  <p><img src="https://leetcard.jacoblin.cool/mariogv_17?theme=dark&font=Ribeye" alt="leetcode stats" /></p>
 </div>
 
 
