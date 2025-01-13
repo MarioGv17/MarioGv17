@@ -14,6 +14,12 @@
 </div>
 
 <div align="center">
+  <h3 align="center">Leetcode stats</h3>
+  <p><img src="[https://github-readme-streak-stats.herokuapp.com/?user=mariogv17&](https://leetcard.jacoblin.cool/mariogv17?theme=dark&font=Ribeye)" alt="leetcode stats" /></p>
+</div>
+
+
+<div align="center">
   <h3 align="center">Github streak stats</h3>
   <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=mariogv17&" alt="mariogv17" /></p>
 </div>
