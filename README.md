@@ -5,6 +5,7 @@
 - 🔭 I’m currently building **AI-powered apps** for text processing and voice interaction
 - 🌱 I’m currently learning **Azure AI services**
 - 💬 Ask me about **.NET C#, Azure, SQL, Angular, React**
+- ⚡ Fun fact As a PADI certified freediver, I can hold my breath for 3 minutes and 15 seconds 😜
 
 
 <div align="center">
