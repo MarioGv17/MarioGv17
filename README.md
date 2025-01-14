@@ -21,5 +21,5 @@
 
 <div align="center">
   <h3 align="center">Github streak stats</h3>
-  <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=mariogv17&" alt="mariogv17" /></p>
+  <p><img src="https://streak-stats.demolab.com/?user=mario_gv17" alt="mariogv17" /></p>
 </div>
