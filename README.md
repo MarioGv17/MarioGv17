@@ -22,4 +22,5 @@
 <div align="center">
   <h3 align="center">Github streak stats</h3>
   <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=mario_gv17" alt="mariogv17" /></p>
+  [![GitHub Streak](https://github-readme-streak-stats-phi-coral.vercel.app?user=)](https://git.io/streak-stats)
 </div>
