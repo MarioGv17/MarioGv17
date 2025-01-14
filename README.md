@@ -20,6 +20,6 @@
 
 
 <div align="center">
-  <h3 align="center">Github streak stats</h3>
-  <p><img src="https://github-readme-streak-stats-phi-coral.vercel.app?user=mario_gv17" alt="mariogv17" /></p>
+  <h3 align="center">Github stats</h3>
+  <p><img src="https://github-readme-streak-stats-phi-coral.vercel.app?user=mariogv17" alt="mariogv17" /></p>
 </div>
