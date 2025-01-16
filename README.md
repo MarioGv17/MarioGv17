@@ -20,8 +20,3 @@
 </div>
 
 <br/>
-
-<div align="center">
-  <h3 align="center">Github stats</h3>
-  <p><img src="http://readme-stats-gamma-puce.vercel.app/api?username=mariogv17" alt="mariogv17" /></p>
-</div>
