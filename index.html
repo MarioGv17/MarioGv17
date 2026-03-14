@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patitas Felices — El Paraíso de tu Perro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">🐾 Patitas Felices</a>
+      <ul class="nav-links">
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#instalaciones">Instalaciones</a></li>
+        <li><a href="#testimonios">Opiniones</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto" class="btn-nav">Reservar Visita</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">&#9776;</button>
+    </div>
+    <ul class="nav-mobile" id="nav-mobile">
+      <li><a href="#beneficios">Beneficios</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#instalaciones">Instalaciones</a></li>
+      <li><a href="#testimonios">Opiniones</a></li>
+      <li><a href="#precios">Precios</a></li>
+      <li><a href="#contacto">Reservar Visita</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">✨ Más de 5,000 perros felices</span>
+      <h1>El lugar donde tu perro<br /><span class="highlight">vive su mejor vida</span></h1>
+      <p class="hero-sub">Un parque diseñado por expertos para que tu mascota corra, socialice y se desarrolle de forma sana y segura. Porque ellos se lo merecen todo.</p>
+      <div class="hero-ctas">
+        <a href="#precios" class="btn-primary">Ver planes desde $299/mes</a>
+        <a href="#servicios" class="btn-secondary">Conocer más ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5,000+</span><span class="stat-label">Perros felices</span></div>
+        <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Clientes satisfechos</span></div>
+        <div class="stat"><span class="stat-num">3,500 m²</span><span class="stat-label">De espacio libre</span></div>
+        <div class="stat"><span class="stat-num">8</span><span class="stat-label">Años de experiencia</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER URGENCIA -->
+  <section class="banner-urgencia">
+    <p>🔥 <strong>Oferta de lanzamiento:</strong> Primer mes gratis en el plan Premium. Solo quedan <span id="spots">7</span> lugares disponibles. <a href="#precios">¡Aprovéchalo ahora!</a></p>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section beneficios" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Por qué elegirnos</span>
+        <h2>Tu perro merece más que<br />un paseo por la banqueta</h2>
+        <p>Nuestro parque está diseñado con ciencia canina y amor para cubrir cada necesidad de tu mascota.</p>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card card-anim">
+          <div class="card-icon">🏃</div>
+          <h3>Ejercicio sin límites</h3>
+          <p>3,500 m² de espacio abierto con zonas diferenciadas por tamaño de raza. Tu perro corre, salta y explora sin restricciones, manteniendo un peso saludable y articulaciones fuertes.</p>
+          <span class="card-badge">Reduce ansiedad en un 70%</span>
+        </div>
+
+        <div class="card card-anim">
+          <div class="card-icon">🐶</div>
+          <h3>Socialización real</h3>
+          <p>Interacción supervisada con otros perros desarrolla habilidades sociales, reduce comportamientos agresivos y hace a tu mascota más equilibrada y confiada.</p>
+          <span class="card-badge">Perros más seguros y felices</span>
+        </div>
+
+        <div class="card card-anim">
+          <div class="card-icon">🛡️</div>
+          <h3>Seguridad garantizada</h3>
+          <p>Cercas de 2 metros de alto, acceso controlado con doble compuerta, cámaras 24/7 y personal certificado siempre presente. Tu tranquilidad es nuestra prioridad.</p>
+          <span class="card-badge">Cero incidentes en 8 años</span>
+        </div>
+
+        <div class="card card-anim">
+          <div class="card-icon">🧠</div>
+          <h3>Estimulación mental</h3>
+          <p>Circuitos de agilidad, túneles, rampas y zonas de olfato activan el cerebro canino. Un perro mentalmente estimulado es más obediente y menos destructivo en casa.</p>
+          <span class="card-badge">Entrena cuerpo y mente</span>
+        </div>
+
+        <div class="card card-anim">
+          <div class="card-icon">💧</div>
+          <h3>Hidratación y descanso</h3>
+          <p>Bebederos de acero inoxidable con agua filtrada en toda la extensión. Zonas de sombra con malla UV y áreas de descanso para que tu perro recupere energía.</p>
+          <span class="card-badge">Siempre fresco y bien hidratado</span>
+        </div>
+
+        <div class="card card-anim">
+          <div class="card-icon">❤️</div>
+          <h3>Salud integral</h3>
+          <p>Superficies de pasto natural y sintético amigables con las articulaciones. Revisión de acceso: todos los perros deben tener vacunas al día para garantizar un ambiente sano.</p>
+          <span class="card-badge">Comunidad de perros sanos</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SEPARADOR WAVE -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff8f0"/>
+    </svg>
+  </div>
+
+  <!-- SERVICIOS -->
+  <section class="section servicios" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Nuestros servicios</span>
+        <h2>Todo lo que tu mejor amigo<br />necesita en un solo lugar</h2>
+        <p>Más allá del parque, ofrecemos servicios complementarios pensados para el bienestar completo de tu mascota.</p>
+      </div>
+      <div class="servicios-grid">
+
+        <div class="servicio-item">
+          <div class="servicio-img s1"></div>
+          <div class="servicio-info">
+            <h3>🐾 Guardería Canina</h3>
+            <p>Deja a tu perro en las mejores manos mientras trabajas. Actividades estructuradas, siestas supervisadas y actualizaciones con fotos en tiempo real para que nunca te pierdas un momento.</p>
+            <ul>
+              <li>✓ Grupos pequeños (máx. 10 perros)</li>
+              <li>✓ Actualizaciones por WhatsApp</li>
+              <li>✓ Alimentación incluida</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="servicio-item reverse">
+          <div class="servicio-img s2"></div>
+          <div class="servicio-info">
+            <h3>✂️ Estética y Grooming</h3>
+            <p>Baño, corte, limpieza de oídos, corte de uñas y perfumado. Nuestros groomer certificados cuidan cada detalle para que tu perro salga radiante y sintiéndose de maravilla.</p>
+            <ul>
+              <li>✓ Productos hipoalergénicos premium</li>
+              <li>✓ Secado sin estrés</li>
+              <li>✓ Disponible sin cita previa</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="servicio-item">
+          <div class="servicio-img s3"></div>
+          <div class="servicio-info">
+            <h3>🎓 Entrenamiento Profesional</h3>
+            <p>Sesiones de obediencia básica y avanzada con entrenadores certificados en psicología canina. Transforma los comportamientos problemáticos en hábitos positivos para toda la familia.</p>
+            <ul>
+              <li>✓ Método positivo y sin castigos</li>
+              <li>✓ Clases individuales y grupales</li>
+              <li>✓ Seguimiento personalizado</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="servicio-item reverse">
+          <div class="servicio-img s4"></div>
+          <div class="servicio-info">
+            <h3>🏥 Consultas Veterinarias</h3>
+            <p>Veterinario residente disponible para chequeos de rutina, aplicación de vacunas y atención de urgencias menores. La salud de tu perro siempre en primer lugar.</p>
+            <ul>
+              <li>✓ Vacunación y desparasitación</li>
+              <li>✓ Atención de urgencias en sitio</li>
+              <li>✓ Historial médico digital</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALACIONES -->
+  <section class="section instalaciones" id="instalaciones">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Nuestras instalaciones</span>
+        <h2>Un espacio diseñado<br />con amor canino</h2>
+        <p>Cada rincón de Patitas Felices fue pensado para maximizar la diversión y el bienestar de tu mascota.</p>
+      </div>
+      <div class="instalaciones-grid">
+        <div class="inst-card">
+          <div class="inst-img i1"></div>
+          <p>Zona de juegos libre</p>
+        </div>
+        <div class="inst-card">
+          <div class="inst-img i2"></div>
+          <p>Piscina canina</p>
+        </div>
+        <div class="inst-card">
+          <div class="inst-img i3"></div>
+          <p>Circuito de agilidad</p>
+        </div>
+        <div class="inst-card">
+          <div class="inst-img i4"></div>
+          <p>Zona de razas pequeñas</p>
+        </div>
+        <div class="inst-card">
+          <div class="inst-img i5"></div>
+          <p>Área de descanso</p>
+        </div>
+        <div class="inst-card">
+          <div class="inst-img i6"></div>
+          <p>Cafetería para dueños</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Lo que dicen nuestros clientes</span>
+        <h2>Miles de familias ya<br />confían en nosotros</h2>
+      </div>
+      <div class="testimonios-grid">
+
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Desde que llevamos a Max, es un perro totalmente diferente. Llegaba agresivo con otros perros y ahora es el más sociable de todos. ¡El equipo de entrenamiento hizo milagros!"</p>
+          <div class="testi-author">
+            <div class="avatar av1"></div>
+            <div>
+              <strong>Carolina Méndez</strong>
+              <span>Mamá de Max, Golden Retriever</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"El mejor dinero que he gastado en mi vida. Luna llega a casa exhausta y feliz, duerme toda la noche y ya no destroza los muebles. Vale absolutamente cada peso."</p>
+          <div class="testi-author">
+            <div class="avatar av2"></div>
+            <div>
+              <strong>Roberto García</strong>
+              <span>Papá de Luna, Husky Siberiano</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"El servicio de grooming es excepcional. Mi Chispas sale siempre perfumado y feliz, sin el estrés que tenía antes en otras peluquerías. 100% recomendado."</p>
+          <div class="testi-author">
+            <div class="avatar av3"></div>
+            <div>
+              <strong>Daniela Rojas</strong>
+              <span>Mamá de Chispas, Bichón Frisé</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"La guardería es una salvación para los que trabajamos todo el día. Las fotos por WhatsApp me hacen el día, ver a Taco jugando feliz mientras yo estoy en la oficina es invaluable."</p>
+          <div class="testi-author">
+            <div class="avatar av4"></div>
+            <div>
+              <strong>Alejandro Torres</strong>
+              <span>Papá de Taco, French Bulldog</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Fui con mi Bella después de que adoptarla. El equipo fue increíblemente paciente con ella que era muy tímida. Hoy es la reina del parque. Lloré de la emoción."</p>
+          <div class="testi-author">
+            <div class="avatar av5"></div>
+            <div>
+              <strong>Sofía Martínez</strong>
+              <span>Mamá de Bella, Labrador adoptada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Llevo 2 años siendo cliente y jamás ha habido un solo incidente. La seguridad es impecable y el personal conoce a Thor por su nombre. Es su segundo hogar."</p>
+          <div class="testi-author">
+            <div class="avatar av6"></div>
+            <div>
+              <strong>Miguel Ángel Ruiz</strong>
+              <span>Papá de Thor, Rottweiler</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section precios" id="precios">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Planes y precios</span>
+        <h2>Invierte en la felicidad<br />de tu mejor amigo</h2>
+        <p>Planes flexibles sin contratos de permanencia. Cancela cuando quieras, aunque sabemos que no querrás.</p>
+      </div>
+      <div class="precios-grid">
+
+        <div class="precio-card">
+          <div class="precio-header">
+            <h3>Básico</h3>
+            <p class="precio-desc">Perfecto para empezar</p>
+          </div>
+          <div class="precio-monto">
+            <span class="moneda">$</span><span class="monto">299</span><span class="periodo">/mes</span>
+          </div>
+          <ul class="precio-features">
+            <li>✓ Acceso al parque 8 visitas/mes</li>
+            <li>✓ Zonas de juego libre</li>
+            <li>✓ Bebederos y zonas de sombra</li>
+            <li>✓ Supervisión permanente</li>
+            <li>✗ Guardería no incluida</li>
+            <li>✗ Descuentos en grooming</li>
+          </ul>
+          <a href="#contacto" class="btn-plan">Empezar ahora</a>
+        </div>
+
+        <div class="precio-card popular">
+          <div class="popular-badge">⭐ MÁS POPULAR</div>
+          <div class="precio-header">
+            <h3>Premium</h3>
+            <p class="precio-desc">La experiencia completa</p>
+          </div>
+          <div class="precio-monto">
+            <span class="moneda">$</span><span class="monto">599</span><span class="periodo">/mes</span>
+          </div>
+          <ul class="precio-features">
+            <li>✓ Acceso ilimitado al parque</li>
+            <li>✓ 4 días de guardería/mes</li>
+            <li>✓ 1 sesión de grooming/mes</li>
+            <li>✓ 1 consulta veterinaria/mes</li>
+            <li>✓ 20% descuento en entrenamiento</li>
+            <li>✓ Acceso a piscina canina</li>
+          </ul>
+          <a href="#contacto" class="btn-plan btn-plan-primary">¡Quiero este plan!</a>
+          <p class="primer-mes">🎁 Primer mes GRATIS</p>
+        </div>
+
+        <div class="precio-card">
+          <div class="precio-header">
+            <h3>VIP</h3>
+            <p class="precio-desc">Para los más exigentes</p>
+          </div>
+          <div class="precio-monto">
+            <span class="moneda">$</span><span class="monto">999</span><span class="periodo">/mes</span>
+          </div>
+          <ul class="precio-features">
+            <li>✓ Todo lo del plan Premium</li>
+            <li>✓ Guardería ilimitada</li>
+            <li>✓ Grooming ilimitado</li>
+            <li>✓ Entrenamiento grupal incluido</li>
+            <li>✓ Consultas vet. ilimitadas</li>
+            <li>✓ Servicio de transporte incluido</li>
+          </ul>
+          <a href="#contacto" class="btn-plan">Quiero lo mejor</a>
+        </div>
+
+      </div>
+      <p class="precios-nota">💳 Aceptamos todas las tarjetas. Sin contratos. Sin letras pequeñas.</p>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final">
+    <div class="container">
+      <h2>¿Listo para ver a tu perro<br />más feliz que nunca?</h2>
+      <p>Únete a miles de familias que ya descubrieron el mejor lugar para sus mascotas. La primera visita es <strong>completamente gratis.</strong></p>
+      <a href="#contacto" class="btn-primary btn-xl">Reservar mi visita gratuita →</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contacto" id="contacto">
+    <div class="container">
+      <div class="contacto-wrap">
+        <div class="contacto-info">
+          <span class="tag">Contáctanos</span>
+          <h2>Estamos aquí para ti y tu peludo</h2>
+          <p>Agenda tu visita gratuita, resuelve tus dudas o simplemente dinos hola. Respondemos en menos de 2 horas.</p>
+          <div class="info-item">
+            <span>📍</span>
+            <div>
+              <strong>Dirección</strong>
+              <p>Av. de los Perros 123, Colonia Verde, Ciudad</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span>📞</span>
+            <div>
+              <strong>Teléfono / WhatsApp</strong>
+              <p>+52 55 1234 5678</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span>🕐</span>
+            <div>
+              <strong>Horario</strong>
+              <p>Lunes a Domingo: 7:00 am – 8:00 pm</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span>📧</span>
+            <div>
+              <strong>Email</strong>
+              <p>hola@patitasfelices.mx</p>
+            </div>
+          </div>
+        </div>
+        <div class="contacto-form">
+          <form id="contactForm">
+            <h3>Agenda tu visita gratuita</h3>
+            <div class="form-group">
+              <label for="nombre">Tu nombre</label>
+              <input type="text" id="nombre" placeholder="¿Cómo te llamas?" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="tu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="perro">Nombre de tu perro</label>
+              <input type="text" id="perro" placeholder="¿Cómo se llama tu peludo?" required />
+            </div>
+            <div class="form-group">
+              <label for="raza">Raza y edad aproximada</label>
+              <input type="text" id="raza" placeholder="Ej. Labrador, 2 años" />
+            </div>
+            <div class="form-group">
+              <label for="servicio">¿Qué te interesa?</label>
+              <select id="servicio">
+                <option value="">Selecciona un servicio</option>
+                <option>Acceso al parque</option>
+                <option>Guardería canina</option>
+                <option>Grooming / Estética</option>
+                <option>Entrenamiento</option>
+                <option>Consulta veterinaria</option>
+                <option>Plan mensual</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje (opcional)</label>
+              <textarea id="mensaje" rows="3" placeholder="Cuéntanos sobre tu perro..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Enviar y reservar visita gratuita 🐾</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">🐾</div>
+            <h3>¡Recibimos tu mensaje!</h3>
+            <p>Te contactaremos en menos de 2 horas para confirmar tu visita gratuita. ¡Tu perro está a punto de conocer su lugar favorito!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">🐾 Patitas Felices</a>
+          <p>El lugar donde cada perro encuentra su felicidad y cada dueño encuentra su tranquilidad.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">👥</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Parque canino</a></li>
+            <li><a href="#servicios">Guardería</a></li>
+            <li><a href="#servicios">Grooming</a></li>
+            <li><a href="#servicios">Entrenamiento</a></li>
+            <li><a href="#servicios">Veterinaria</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Información</h4>
+          <ul>
+            <li><a href="#beneficios">¿Por qué nosotros?</a></li>
+            <li><a href="#instalaciones">Instalaciones</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#testimonios">Opiniones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Horarios</h4>
+          <ul>
+            <li>Lunes – Viernes: 7am – 8pm</li>
+            <li>Sábado: 7am – 8pm</li>
+            <li>Domingo: 8am – 7pm</li>
+            <li>Festivos: 9am – 6pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Patitas Felices. Todos los derechos reservados. Hecho con ❤️ para los perritos.</p>
+        <p><a href="#">Aviso de privacidad</a> · <a href="#">Términos y condiciones</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
